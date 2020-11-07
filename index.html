@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>license selection form</title>
+</head>
+<body>
+    <div class='selection-license'>
+        <label class="form-license" data-price='13' data-licenseNum='1'>
+            <input class="form-license__radio" type="radio" name='form-license__radio'>
+            <span class="form-license__fake-radio"></span>
+            <span class="form-license__text">LICENSE PLAN#1</span>
+            <span class="form-license__price">$13 per license</span>
+        </label>
+        <label class="form-license" data-price='22' data-licenseNum='2'>
+            <input class="form-license__radio" type="radio" name='form-license__radio'>
+            <span class="form-license__fake-radio"></span>
+            <span class="form-license__text">LICENSE PLAN#2</span>
+            <span class="form-license__price" >$22 per license</span>
+        </label>
+        <label class="form-license" data-price='34' data-licenseNum='3'>
+            <input class="form-license__radio" type="radio" name='form-license__radio'>
+            <span class="form-license__fake-radio"></span>
+            <span class="form-license__text">LICENSE PLAN#3</span>
+            <span class="form-license__price" >$34 per license</span>
+        </label>
+        <hr>
+        <div class='selection-number'>
+            <span>Number of licenses: </span>
+            <select id="selectId" name="number-license">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <hr>
+        <div class='form-footer'>
+            <h2 class='total-sum'>TOTAL: <div>$<span>0</span></div> <span class='total-sum__up'>us</span></h2>
+            <button class='selection-license__btn'>BUY NOW</button>
+            <div class='selection-license__plan'>Selected plan: <div></div></div>
+        </div>
+    </div>
+    <script src='./main.js'></script>
+</body>
+</html>
