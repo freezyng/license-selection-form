@@ -52,15 +52,6 @@ body, html{
     display: none;
 }
 
-.form-license__fake-radio{
-    display: block;
-    width: 20px;
-    height: 20px;
-    border: 3px solid #34648E;
-    position: relative;
-    border-radius: 50%;
-}
-
 .form-license__text {
     color: #787878;
     display: flex;
@@ -71,6 +62,17 @@ body, html{
     font-size: 18px;
     font-family: 'BebasNeueRegular', sans-serif;
 }
+
+.form-license__fake-radio{
+    display: block;
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #34648E;
+    position: relative;
+    border-radius: 50%;
+}
+
 
 .form-license__fake-radio::before {
     content: '';
